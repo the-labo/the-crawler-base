@@ -1,0 +1,76 @@
+{
+  "functions": [
+    {
+      "name": "create",
+      "access": "",
+      "virtual": false,
+      "description": "Create a TheCrawl instance",
+      "parameters": [
+        {
+          "name": "args",
+          "type": "*",
+          "description": "",
+          "default": "",
+          "optional": "",
+          "nullable": ""
+        }
+      ],
+      "examples": [],
+      "returns": {
+        "type": "TheCrawl",
+        "description": ""
+      }
+    },
+    {
+      "name": "create",
+      "access": "",
+      "virtual": false,
+      "description": "Create a TheCrawl instance",
+      "parameters": [
+        {
+          "name": "args",
+          "type": "*",
+          "description": "",
+          "default": "",
+          "optional": "",
+          "nullable": ""
+        }
+      ],
+      "examples": [],
+      "returns": {
+        "type": "TheCrawl",
+        "description": ""
+      }
+    }
+  ],
+  "classes": [
+    {
+      "name": "TheCrawl",
+      "description": "",
+      "extends": [],
+      "access": "",
+      "virtual": true,
+      "fires": "",
+      "constructor": {
+        "name": "TheCrawl",
+        "description": "Base craler class",
+        "parameters": [],
+        "examples": []
+      }
+    },
+    {
+      "name": "TheCrawl",
+      "description": "",
+      "extends": [],
+      "access": "",
+      "virtual": true,
+      "fires": "",
+      "constructor": {
+        "name": "TheCrawl",
+        "description": "Base craler class",
+        "parameters": [],
+        "examples": []
+      }
+    }
+  ]
+}
