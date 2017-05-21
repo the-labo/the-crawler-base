@@ -53,10 +53,96 @@
       "fires": "",
       "constructor": {
         "name": "TheCrawl",
-        "description": "Base craler class",
+        "description": "Base crawler class",
         "parameters": [],
         "examples": []
-      }
+      },
+      "functions": [
+        {
+          "name": "crawl",
+          "access": "",
+          "virtual": false,
+          "description": "Do crawl",
+          "parameters": [
+            {
+              "name": "params",
+              "type": "Object",
+              "description": "",
+              "default": "",
+              "optional": "",
+              "nullable": ""
+            }
+          ],
+          "examples": [],
+          "returns": {
+            "type": "Promise.<Array>",
+            "description": "Entities"
+          }
+        },
+        {
+          "name": "run",
+          "access": "",
+          "virtual": false,
+          "description": "Run the crawler",
+          "parameters": [
+            {
+              "name": "params",
+              "type": "Object",
+              "description": "",
+              "default": "",
+              "optional": "",
+              "nullable": ""
+            }
+          ],
+          "examples": [],
+          "returns": {
+            "type": "Promise.<void>",
+            "description": ""
+          }
+        },
+        {
+          "name": "crawl",
+          "access": "",
+          "virtual": false,
+          "description": "Do crawl",
+          "parameters": [
+            {
+              "name": "params",
+              "type": "Object",
+              "description": "",
+              "default": "",
+              "optional": "",
+              "nullable": ""
+            }
+          ],
+          "examples": [],
+          "returns": {
+            "type": "Promise.<Array>",
+            "description": "Entities"
+          }
+        },
+        {
+          "name": "run",
+          "access": "",
+          "virtual": false,
+          "description": "Run the crawler",
+          "parameters": [
+            {
+              "name": "params",
+              "type": "Object",
+              "description": "",
+              "default": "",
+              "optional": "",
+              "nullable": ""
+            }
+          ],
+          "examples": [],
+          "returns": {
+            "type": "Promise.<void>",
+            "description": ""
+          }
+        }
+      ]
     },
     {
       "name": "TheCrawl",
@@ -67,10 +153,96 @@
       "fires": "",
       "constructor": {
         "name": "TheCrawl",
-        "description": "Base craler class",
+        "description": "Base crawler class",
         "parameters": [],
         "examples": []
-      }
+      },
+      "functions": [
+        {
+          "name": "crawl",
+          "access": "",
+          "virtual": false,
+          "description": "Do crawl",
+          "parameters": [
+            {
+              "name": "params",
+              "type": "Object",
+              "description": "",
+              "default": "",
+              "optional": "",
+              "nullable": ""
+            }
+          ],
+          "examples": [],
+          "returns": {
+            "type": "Promise.<Array>",
+            "description": "Entities"
+          }
+        },
+        {
+          "name": "run",
+          "access": "",
+          "virtual": false,
+          "description": "Run the crawler",
+          "parameters": [
+            {
+              "name": "params",
+              "type": "Object",
+              "description": "",
+              "default": "",
+              "optional": "",
+              "nullable": ""
+            }
+          ],
+          "examples": [],
+          "returns": {
+            "type": "Promise.<void>",
+            "description": ""
+          }
+        },
+        {
+          "name": "crawl",
+          "access": "",
+          "virtual": false,
+          "description": "Do crawl",
+          "parameters": [
+            {
+              "name": "params",
+              "type": "Object",
+              "description": "",
+              "default": "",
+              "optional": "",
+              "nullable": ""
+            }
+          ],
+          "examples": [],
+          "returns": {
+            "type": "Promise.<Array>",
+            "description": "Entities"
+          }
+        },
+        {
+          "name": "run",
+          "access": "",
+          "virtual": false,
+          "description": "Run the crawler",
+          "parameters": [
+            {
+              "name": "params",
+              "type": "Object",
+              "description": "",
+              "default": "",
+              "optional": "",
+              "nullable": ""
+            }
+          ],
+          "examples": [],
+          "returns": {
+            "type": "Promise.<void>",
+            "description": ""
+          }
+        }
+      ]
     }
   ]
 }
