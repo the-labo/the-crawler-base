@@ -1,4 +1,4 @@
-# the-crawler-base@1.0.0
+# the-crawler-base@1.1.0
 
 Base of the-crawlers
 
@@ -6,6 +6,10 @@ Base of the-crawlers
   + [create(args)](#the-crawler-base-function-create)
 + [`TheCrawl`](#the-crawler-base-classes) Class
   + [new TheCrawl()](#the-crawler-base-classes-the-crawl-constructor)
+  + [crawl.crawl(params)](#the-crawler-base-classes-the-crawl-crawl)
+  + [crawl.run(params)](#the-crawler-base-classes-the-crawl-run)
+  + [crawl.crawl(params)](#the-crawler-base-classes-the-crawl-crawl)
+  + [crawl.run(params)](#the-crawler-base-classes-the-crawl-run)
 
 ## Functions
 
@@ -25,7 +29,7 @@ Create a TheCrawl instance
 
 ## `TheCrawl` Class
 
-Base craler class
+Base crawler class
 
 
 
@@ -36,6 +40,50 @@ Base craler class
 
 Constructor of TheCrawl class
 
+
+
+<a class='md-heading-link' name="the-crawler-base-classes-the-crawl-crawl" ></a>
+
+### crawl.crawl(params) -> `Promise.<Array>`
+
+Do crawl
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| params | Object |  |
+
+
+<a class='md-heading-link' name="the-crawler-base-classes-the-crawl-run" ></a>
+
+### crawl.run(params) -> `Promise.<void>`
+
+Run the crawler
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| params | Object |  |
+
+
+<a class='md-heading-link' name="the-crawler-base-classes-the-crawl-crawl" ></a>
+
+### crawl.crawl(params) -> `Promise.<Array>`
+
+Do crawl
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| params | Object |  |
+
+
+<a class='md-heading-link' name="the-crawler-base-classes-the-crawl-run" ></a>
+
+### crawl.run(params) -> `Promise.<void>`
+
+Run the crawler
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| params | Object |  |
 
 
 
