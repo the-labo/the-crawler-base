@@ -10,7 +10,8 @@ async function tryExample () {
     /* ... */
   }
 
-  let siteCtwl = new SiteCrwl(db.resource('Site'))
+  let siteCtwl = new SiteCrwl()
+  siteCtwl.addResource(db.resource('Site'))
   /* ... */
 }
 
