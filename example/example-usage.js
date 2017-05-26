@@ -1,15 +1,17 @@
 'use strict'
 
-const { TheCrawl } = require('the-crawler-base')
+const { TheCrwl } = require('the-crawler-base')
 const theDB = require('the-db')
 
 async function tryExample () {
   let db = theDB({ /* ... */ })
 
-  class SiteCrawl extends TheCrawl {
+  class SiteCrwl extends TheCrwl {
     /* ... */
   }
 
+  let siteCtwl = new SiteCrwl(db.resource('Site'))
+  /* ... */
 }
 
 tryExample().catch((err) => console.error(err))

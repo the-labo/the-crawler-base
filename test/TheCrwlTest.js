@@ -1,14 +1,14 @@
 /**
- * Test for TheCrawl.
+ * Test for TheCrwl.
  * Runs with mocha.
  */
 'use strict'
 
-const TheCrawl = require('../lib/TheCrawl')
+const TheCrwl = require('../lib/TheCrwl')
 const theDB = require('the-db')
 const { ok, equal } = require('assert')
 
-describe('the-crawl', () => {
+describe('the-crwl', () => {
   before(() => {
   })
 
@@ -20,7 +20,7 @@ describe('the-crawl', () => {
 
     const Article = db.resource('Article')
 
-    class NewsCrawl extends TheCrawl {
+    class NewsCrawl extends TheCrwl {
       crawl () {
         return [
           { id: 1, name: 'title01' },
