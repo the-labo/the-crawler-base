@@ -41,6 +41,27 @@
         "type": "TheCrwl",
         "description": ""
       }
+    },
+    {
+      "name": "resourceMix",
+      "access": "",
+      "virtual": false,
+      "description": "Mix up resource",
+      "parameters": [
+        {
+          "name": "BaseClass",
+          "type": "function",
+          "description": "Base class",
+          "default": "",
+          "optional": "",
+          "nullable": ""
+        }
+      ],
+      "examples": [],
+      "returns": {
+        "type": "function",
+        "description": "Mixed class"
+      }
     }
   ],
   "classes": [

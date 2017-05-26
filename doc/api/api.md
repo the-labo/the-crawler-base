@@ -1,23 +1,23 @@
-# the-crawler-base@1.1.0
+# the-crawler-base@2.0.0
 
 Base of the-crawlers
 
 + Functions
   + [create(args)](#the-crawler-base-function-create)
-+ [`TheCrawl`](#the-crawler-base-classes) Class
-  + [new TheCrawl()](#the-crawler-base-classes-the-crawl-constructor)
-  + [crawl.crawl(params)](#the-crawler-base-classes-the-crawl-crawl)
-  + [crawl.run(params)](#the-crawler-base-classes-the-crawl-run)
-  + [crawl.crawl(params)](#the-crawler-base-classes-the-crawl-crawl)
-  + [crawl.run(params)](#the-crawler-base-classes-the-crawl-run)
++ [`TheCrwl`](#the-crawler-base-classes) Class
+  + [new TheCrwl()](#the-crawler-base-classes-the-crwl-constructor)
+  + [crwl.crawl(config)](#the-crawler-base-classes-the-crwl-crawl)
+  + [crwl.run(config)](#the-crawler-base-classes-the-crwl-run)
+  + [crwl.crawl(config)](#the-crawler-base-classes-the-crwl-crawl)
+  + [crwl.run(config)](#the-crawler-base-classes-the-crwl-run)
 
 ## Functions
 
 <a class='md-heading-link' name="the-crawler-base-function-create" ></a>
 
-### create(args) -> `TheCrawl`
+### create(args) -> `TheCrwl`
 
-Create a TheCrawl instance
+Create a TheCrwl instance
 
 | Param | Type | Description |
 | ----- | --- | -------- |
@@ -27,63 +27,63 @@ Create a TheCrawl instance
 
 <a class='md-heading-link' name="the-crawler-base-classes"></a>
 
-## `TheCrawl` Class
+## `TheCrwl` Class
 
 Base crawler class
 
 
 
 
-<a class='md-heading-link' name="the-crawler-base-classes-the-crawl-constructor" ></a>
+<a class='md-heading-link' name="the-crawler-base-classes-the-crwl-constructor" ></a>
 
-### new TheCrawl()
+### new TheCrwl()
 
-Constructor of TheCrawl class
-
-
-
-<a class='md-heading-link' name="the-crawler-base-classes-the-crawl-crawl" ></a>
-
-### crawl.crawl(params) -> `Promise.<Array>`
-
-Do crawl
-
-| Param | Type | Description |
-| ----- | --- | -------- |
-| params | Object |  |
+Constructor of TheCrwl class
 
 
-<a class='md-heading-link' name="the-crawler-base-classes-the-crawl-run" ></a>
 
-### crawl.run(params) -> `Promise.<void>`
+<a class='md-heading-link' name="the-crawler-base-classes-the-crwl-crawl" ></a>
 
-Run the crawler
-
-| Param | Type | Description |
-| ----- | --- | -------- |
-| params | Object |  |
-
-
-<a class='md-heading-link' name="the-crawler-base-classes-the-crawl-crawl" ></a>
-
-### crawl.crawl(params) -> `Promise.<Array>`
+### crwl.crawl(config) -> `Promise.<Array>`
 
 Do crawl
 
 | Param | Type | Description |
 | ----- | --- | -------- |
-| params | Object |  |
+| config | Object | Crawl config |
 
 
-<a class='md-heading-link' name="the-crawler-base-classes-the-crawl-run" ></a>
+<a class='md-heading-link' name="the-crawler-base-classes-the-crwl-run" ></a>
 
-### crawl.run(params) -> `Promise.<void>`
+### crwl.run(config) -> `Promise.<void>`
 
 Run the crawler
 
 | Param | Type | Description |
 | ----- | --- | -------- |
-| params | Object |  |
+| config | Object | Crawl config |
+
+
+<a class='md-heading-link' name="the-crawler-base-classes-the-crwl-crawl" ></a>
+
+### crwl.crawl(config) -> `Promise.<Array>`
+
+Do crawl
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| config | Object | Crawl config |
+
+
+<a class='md-heading-link' name="the-crawler-base-classes-the-crwl-run" ></a>
+
+### crwl.run(config) -> `Promise.<void>`
+
+Run the crawler
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| config | Object | Crawl config |
 
 
 
