@@ -1,9 +1,10 @@
-# the-crawler-base@2.0.0
+# the-crawler-base@2.0.1
 
 Base of the-crawlers
 
 + Functions
   + [create(args)](#the-crawler-base-function-create)
+  + [resourceMix(BaseClass)](#the-crawler-base-function-resource-mix)
 + [`TheCrwl`](#the-crawler-base-classes) Class
   + [new TheCrwl()](#the-crawler-base-classes-the-crwl-constructor)
   + [crwl.crawl(config)](#the-crawler-base-classes-the-crwl-crawl)
@@ -22,6 +23,16 @@ Create a TheCrwl instance
 | Param | Type | Description |
 | ----- | --- | -------- |
 | args | * |  |
+
+<a class='md-heading-link' name="the-crawler-base-function-resource-mix" ></a>
+
+### resourceMix(BaseClass) -> `function`
+
+Mix up resource
+
+| Param | Type | Description |
+| ----- | --- | -------- |
+| BaseClass | function | Base class |
 
 
 

@@ -1,6 +1,6 @@
 {
   "name": "the-crawler-base",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Base of the-crawlers",
   "main": "lib",
   "browser": "shim",
