@@ -29,11 +29,14 @@ describe('the-crwl', () => {
       }
     }
 
-    let crawl = new NewsCrawl(Article)
+    let crawl = new NewsCrawl()
+    crawl.addResource(Article)
     await crawl.run()
 
     let { entities } = await Article.list()
     equal(entities.length, 2)
+
+    crawl.removeResource(Article)
   })
 })
 
