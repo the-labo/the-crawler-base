@@ -28,7 +28,9 @@
     "url": "https://github.com/the-labo/the-crawler-base/issues"
   },
   "homepage": "https://github.com/the-labo/the-crawler-base#readme",
-  "dependencies": {},
+  "dependencies": {
+    "debug": "^2.6.8"
+  },
   "devDependencies": {
     "mocha": "^3.3.0",
     "the-db": "^3.0.9",

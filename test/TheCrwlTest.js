@@ -18,25 +18,31 @@ describe('the-crwl', () => {
   it('Do test', async () => {
     const db = theDB({})
 
-    const Article = db.resource('Article')
+    db.load(class ArticleResource extends theDB.Resource {
 
-    class NewsCrawl extends TheCrwl {
+    }, 'Article')
+
+    const { Article } = db.resources
+
+    class NewsCrwl extends TheCrwl {
       crawl () {
         return [
-          { id: 1, name: 'title01' },
-          { id: 2, name: 'title01' }
+          { resource: 'Article', id: 1, attributes: { name: 'title01' } },
+          { resource: 'Article', id: 2, attributes: { name: 'title01' } },
+          { resource: 'Article', id: 2, attributes: { name: 'title01' } } // Duplicate
         ]
       }
     }
 
-    let crawl = new NewsCrawl()
-    crawl.addResource(Article)
-    await crawl.run()
+    let crwl = new NewsCrwl()
+    crwl.setResource('Article', Article)
+    await crwl.run()
 
     let { entities } = await Article.list()
     equal(entities.length, 2)
 
-    crawl.removeResource(Article)
+    crwl.delResource('Article')
+
   })
 })
 

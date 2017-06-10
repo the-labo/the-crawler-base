@@ -6,12 +6,20 @@ const theDB = require('the-db')
 async function tryExample () {
   let db = theDB({ /* ... */ })
 
-  class SiteCrwl extends TheCrwl {
-    /* ... */
+  class MyCrwl extends TheCrwl {
+    async crawl (config = {}) {
+      /* ... */
+      return [
+        { resource: 'Site', id: 1, attributes: { /* ... */ } },
+        { resource: 'Article', id: 1, attributes: { /* ... */ } }
+      ]
+    }
   }
 
-  let siteCtwl = new SiteCrwl()
-  siteCtwl.addResource(db.resource('Site'))
+  let crwl = new MyCrwl({})
+  crwl.setResource('Site', db.resource('Site'))
+  crwl.setResource('Article', db.resource('Article'))
+
   /* ... */
 }
 
