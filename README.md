@@ -111,7 +111,7 @@ tryExample().catch((err) => console.error(err))
 API Guide
 -----
 
-+ [the-crawler-base@2.0.3](./doc/api/api.md)
++ [the-crawler-base@2.1.0](./doc/api/api.md)
   + [create(args)](./doc/api/api.md#the-crawler-base-function-create)
 
 
