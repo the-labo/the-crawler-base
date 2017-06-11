@@ -1,4 +1,4 @@
-# the-crawler-base@2.1.1
+# the-crawler-base@2.1.2
 
 Base of the-crawlers
 
