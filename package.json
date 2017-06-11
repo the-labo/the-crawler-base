@@ -29,8 +29,10 @@
   },
   "homepage": "https://github.com/the-labo/the-crawler-base#readme",
   "dependencies": {
+    "argx": "^3.0.2",
     "clay-resource-ref": "^2.0.1",
-    "debug": "^2.6.8"
+    "debug": "^2.6.8",
+    "the-check": "^1.1.0"
   },
   "devDependencies": {
     "mocha": "^3.4.2",

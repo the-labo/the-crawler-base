@@ -46,6 +46,15 @@ describe('the-crwl', () => {
     crwl.delResource('Article')
 
   })
+
+  it('Crwl name', () => {
+    class SomeCrwl extends TheCrwl {
+
+    }
+    equal((new SomeCrwl()).name, 'someCrwl')
+    equal((new SomeCrwl({ name: 'hoge' })).name, 'hoge')
+    equal((new SomeCrwl('hoge')).name, 'hoge')
+  })
 })
 
 /* global describe, before, after, it */
